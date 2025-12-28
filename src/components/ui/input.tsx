@@ -5,7 +5,7 @@
 
 import { component$, type QwikIntrinsicElements } from '@builder.io/qwik';
 
-interface InputProps extends QwikIntrinsicElements['input'] {
+type InputProps = QwikIntrinsicElements['input'] & {
   label?: string;
   error?: string;
   helperText?: string;

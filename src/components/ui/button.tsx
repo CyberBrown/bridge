@@ -8,7 +8,7 @@ import { component$, Slot, type QwikIntrinsicElements } from '@builder.io/qwik';
 export type ButtonVariant = 'primary' | 'secondary' | 'danger' | 'ghost';
 export type ButtonSize = 'sm' | 'md' | 'lg';
 
-interface ButtonProps extends QwikIntrinsicElements['button'] {
+type ButtonProps = QwikIntrinsicElements['button'] & {
   variant?: ButtonVariant;
   size?: ButtonSize;
   fullWidth?: boolean;

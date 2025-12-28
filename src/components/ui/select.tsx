@@ -5,7 +5,7 @@
 
 import { component$, Slot, type QwikIntrinsicElements } from '@builder.io/qwik';
 
-interface SelectProps extends QwikIntrinsicElements['select'] {
+type SelectProps = QwikIntrinsicElements['select'] & {
   label?: string;
   error?: string;
   helperText?: string;

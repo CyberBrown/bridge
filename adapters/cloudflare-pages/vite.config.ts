@@ -12,12 +12,7 @@ export default extendConfig(baseConfig, () => {
       outDir: '.cloudflare',
     },
     plugins: [
-      cloudflarePagesAdapter({
-        ssg: {
-          include: ['/*'],
-          origin: 'https://nexus-ai.pages.dev',
-        },
-      }),
+      cloudflarePagesAdapter(),
     ],
   };
 });

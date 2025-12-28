@@ -5,7 +5,7 @@
 
 import { component$, type QwikIntrinsicElements } from '@builder.io/qwik';
 
-interface TextareaProps extends QwikIntrinsicElements['textarea'] {
+type TextareaProps = QwikIntrinsicElements['textarea'] & {
   label?: string;
   error?: string;
   helperText?: string;
