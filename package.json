@@ -1,6 +1,6 @@
 {
   "name": "bridge",
-  "description": "Bridge MVP - AI-powered bridge application",
+  "description": "Bridge MVP - Cross-platform content sharing",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },

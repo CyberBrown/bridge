@@ -22,7 +22,7 @@ export default component$(() => {
         </main>
         <footer class="bg-white border-t border-gray-200 py-4">
           <div class="container mx-auto px-4 text-center text-sm text-gray-600">
-            Nexus - Personal AI Command Center
+            Bridge - Cross-platform Content Sharing
           </div>
         </footer>
       </div>

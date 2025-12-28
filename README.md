@@ -1,6 +1,6 @@
-# Bridge MVP
+# Nexus Web Dashboard
 
-AI-powered bridge application built with Qwik and Cloudflare Pages.
+Voice-first AI-powered productivity dashboard built with Qwik and Cloudflare Pages.
 
 ## Tech Stack
 
@@ -11,32 +11,45 @@ AI-powered bridge application built with Qwik and Cloudflare Pages.
 - **API**: RESTful API with WebSocket support
 - **State**: Qwik Signals and Context API
 
+## Features
+
+- ✅ Voice and text capture interface
+- ✅ Inbox processing with AI classification
+- ✅ Kanban-style task board
+- ✅ Type-safe API client with error handling
+- ✅ Authentication context (dev JWT)
+- ✅ Responsive design for mobile and desktop
+- 🚧 Projects, ideas, people, and commitments management (placeholders)
+- 🚧 Real-time WebSocket updates
+- 🚧 Speech-to-text integration
+
 ## Quick Start
 
 ```bash
 # Install dependencies
-bun install
+npm install
 
 # Run development server
-bun run dev
+npm run dev
 
 # Build for production
-bun run build.server
+npm run build.server
 
 # Deploy to Cloudflare Pages
-bun run deploy
+npm run deploy
 ```
 
 ## Project Structure
 
+See full documentation in comments within files. Key directories:
 - `src/components/ui/` - Reusable UI components
 - `src/lib/` - API client, types, auth context
 - `src/routes/` - Page routes (file-based routing)
 
 ## Deployment
 
-Built for Cloudflare Pages. Deployed to https://bridge.distributedelectrons.com
+Built for Cloudflare Pages with zero-config deployment. See package.json scripts.
 
 ## License
 
-MIT
+See main project license.

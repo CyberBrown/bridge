@@ -15,7 +15,7 @@ export default extendConfig(baseConfig, () => {
       cloudflarePagesAdapter({
         ssg: {
           include: ['/*'],
-          origin: 'https://bridge.distributedelectrons.com',
+          origin: 'https://nexus-ai.pages.dev',
         },
       }),
     ],

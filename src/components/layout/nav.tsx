@@ -23,7 +23,7 @@ export const Nav = component$(() => {
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center space-x-8">
             <Link href="/" class="text-xl font-bold text-blue-600">
-              Nexus
+              Bridge
             </Link>
             <div class="hidden md:flex space-x-4">
               {navItems.map((item) => (

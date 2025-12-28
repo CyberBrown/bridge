@@ -37,10 +37,10 @@ export default component$(() => {
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-12">
           <h1 class="text-4xl font-bold text-gray-900 mb-4">
-            Welcome to Nexus
+            Welcome to Bridge
           </h1>
           <p class="text-xl text-gray-600">
-            Your Personal AI Command Center
+            Cross-platform Content Sharing
           </p>
         </div>
 
